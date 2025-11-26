@@ -1,4 +1,4 @@
-import "./navbarfirst.css";
+import "./Navbarfirst.css";
 import metlogo from "../../assets/logo2.png";
 import CartWidget from "../cartwidget/CartWidget";
 import { Link } from "react-router-dom";

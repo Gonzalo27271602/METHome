@@ -1,6 +1,6 @@
 import "./Navbarfirst.css";
 import metlogo from "../../assets/logo2.png";
-import CartWidget from "../CartWidget/CartWudget";
+import CartWidget from "../CartWidget/CartWidget";
 import { Form, Link } from "react-router-dom";
 
 const Navbarfirst = () => {

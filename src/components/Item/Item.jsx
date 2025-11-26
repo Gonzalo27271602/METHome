@@ -1,5 +1,5 @@
-import "./Item.css";
 import { Link } from "react-router-dom";
+import "./Item.css";
 
 //conviene desestructurarlo para no tener que colocar props. y cada dato del producto tambien colocar props.product....
 const Item = ({product}) => {

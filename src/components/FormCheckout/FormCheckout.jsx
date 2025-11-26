@@ -1,8 +1,9 @@
 import React from 'react'
+import "./FormCheckout.css";
 
 const FormCheckout = ({dataForm, handleChangeInput, sendOrder}) => {
   return (
-    <form onSubmit={sendOrder}>
+    <form onSubmit={sendOrder} className="checkout-form">
         <h2>Checkout</h2>
         <input type="text" name="fullname" value={dataForm.fullname} onChange={handleChangeInput} placeholder="Nombre completo"></input>
         <input type="number" name="phone" value={dataForm.phone} onChange={handleChangeInput} placeholder="Numero de telefono"></input>

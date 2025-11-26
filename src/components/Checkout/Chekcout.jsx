@@ -3,6 +3,8 @@ import { Context } from "../Context/Context";
 import FormCheckout from "../FormCheckout/FormCheckout";
 import { addDoc, collection } from "firebase/firestore";
 import DB from "../../DB/DB.js";
+import "./Chekcout.css";
+
 
 const Checkout = () => {
 
@@ -43,11 +45,11 @@ const Checkout = () => {
   }
 
   return (
-    <div>
+    <div className="checkout-container">
       {
         orderId ?
         (
-          <div>
+          <div className="checkout-success">
             <h2>Orden generada correctamente</h2>
             <p>Conserve el id de su compra: {orderId}</p>
           </div>

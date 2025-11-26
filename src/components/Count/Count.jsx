@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./Count.css";
 
 const Count = ({stock, addProduct}) => {
     const [count, setCount] = useState(1);
@@ -17,7 +17,7 @@ const Count = ({stock, addProduct}) => {
     };
 
   return (
-    <div>
+    <div className="count-controls">
         <button onClick={handleClickDecrement}>-</button>
         <p> {count} </p>
         <button onClick={handleClickIncrement}>+</button>

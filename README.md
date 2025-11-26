@@ -44,3 +44,5 @@ Este proyecto es un **e-commerce** desarrollado como entrega final del curso de 
 1. Clonar este repositorio:
    ```bash
    git clone https://github.com/usuario/nombre-del-repo.git
+
+   Subir a netlify

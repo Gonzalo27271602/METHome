@@ -5,10 +5,10 @@ const NavBar = () => {
     return(
         <header>
             <nav className="navbarproduct">
-                <div class="recuadro0"></div>
-                <div class="recuadro1"></div>
-                <div class="recuadro2"></div>
-                <div class="recuadro3"></div>
+                <div className="recuadro0"></div>
+                <div className="recuadro1"></div>
+                <div className="recuadro2"></div>
+                <div className="recuadro3"></div>
                 <div className="navgralproduct">
                     <ul className="navlinks">
                         <li>

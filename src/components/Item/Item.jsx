@@ -8,14 +8,14 @@ const Item = ({product}) => {
             <div className="card-img">
                 <img className="item-img" src={product.image} alt="image product" />
             </div>
-            <div>
+            <div className="Description">
                 <ul>
-                    <li>{product.name}</li>
+                    <li><h3>{product.name}</h3></li>
                     <li>{product.description}</li>
                     <li>{product.price}</li>
-                    <Link to={"/detail/" + product.id}>
-                        <li>Detalle del producto</li>
-                    </Link>
+                    <li>
+                        <Link to={"/detail/" + product.id}>Detalle del producto</Link>
+                    </li>
                 </ul>
             </div>
         </div>

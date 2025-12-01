@@ -1,17 +1,26 @@
-.itemlist {
+.ItemList {
     width: 100%;
-    margin: 0px auto;
-    padding-top: 30px;
+    margin: 0 auto;
     display: grid;
     grid-template-areas:
                         'card card card card'
                         'card card card card'
-                        'card card card card'
-                        'card card card card'
-                        'card card card card'
                         'card card card card';
     gap: 100px;
+    padding: 5px;
     background-color: white;
     justify-items: center;
     justify-content: space-evenly;
   }
+
+
+  
+  //itemlist {
+    //  display: grid;
+    //  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 25px;
+      justify-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }

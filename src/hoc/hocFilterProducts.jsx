@@ -1,5 +1,6 @@
 import { useState } from "react";
 import useProducts from "../hooks/useProducts";
+import './hocFilterProducts.css';
 
 const hocFilterProducts = (Component) => {
 
@@ -26,8 +27,8 @@ const hocFilterProducts = (Component) => {
 
     //event posee la informacion del evento y lo capturo con target y tomo el valor con value (obtengo el valor actual del input) y lo guardamos en mi variable de estado setQuery
       return(
-        <div>
-          <div>
+        <div className="products-page">
+          <div className="search-bar">
             <input type="text" placeholder="Buscar producto" onChange={changeInput}/>
           </div>
           <Component products={search(products)} />

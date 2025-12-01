@@ -9,8 +9,7 @@ const ItemListContainer = () => {
   const {products, loading} = useProducts(category);
 
   return (
-    <main>
-      <h2>Bienvenido a mi e-commerce</h2>
+    <main className='ItemListContainer'>
       {
         loading ? <Loading /> : <ItemList products = {products} />
       }

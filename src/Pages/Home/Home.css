@@ -24,7 +24,7 @@ main {
 }
 
 .imgfondo{
-    background-image: url("img/fondotecnico.jpeg");
+    background-image: url("/img/fondotecnico.jpeg");
     background-size:100%;
     background-repeat: no-repeat;
     background-position: right;

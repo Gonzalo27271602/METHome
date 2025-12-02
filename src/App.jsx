@@ -14,7 +14,7 @@ import Service from './Pages/Service/Service';
 import Contacto from './Pages/Contacto/Contacto';
 
 function App() {
-
+  console.log("PROJECT ID:", import.meta.env.VITE_FIREBASE_PROJECT_ID);
   const location = useLocation();
   const showProductsNav = location.pathname.startsWith("/category");
 

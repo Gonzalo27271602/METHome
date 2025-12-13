@@ -6,6 +6,7 @@
     
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     align-items: center;
     width: 100%;
@@ -67,7 +68,54 @@
 }
 
 .navcart {
-    margin-right: 50px;
-    display: flex;
+    position: relative;
+    margin-right: 30px;
     align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    /*.logo {
+        margin: 10px 0 0 0;
+
+    .logo img {
+        width: 90px;
+        height: 90px;
+    }*/
+
+    .navgral {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navlinks li a {
+        padding: 8px 12px;
+    }
+
+    .navcart {
+        margin-top: 15px;
+        margin-right: 0;    /* el carrito deja de correrse */
+    }
 }

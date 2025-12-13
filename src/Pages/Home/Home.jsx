@@ -45,7 +45,7 @@ const Home = () => {
             </div>
         </div>
 
-        <div className="servicegral">
+        u7-<div className="servicegral">
             <div className="service">
                 <div className="cardho">
                     <div className="imagen">
